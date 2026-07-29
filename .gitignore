@@ -1,0 +1,14 @@
+# Local Claude Code settings and runtime artifacts (not plugin content)
+.claude/settings.local.json
+.claude/*.lock
+
+# Python artifacts (bundled generate-excel.py)
+__pycache__/
+*.pyc
+.venv/
+
+# Generated scenario export output
+bdd-scenarios-*.xlsx
+
+# OS cruft
+.DS_Store

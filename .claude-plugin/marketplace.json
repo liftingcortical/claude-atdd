@@ -1,0 +1,21 @@
+{
+  "name": "claude-atdd",
+  "owner": {
+    "name": "liftingcortical",
+    "email": "lifting.cortical@gmail.com",
+    "url": "https://github.com/liftingcortical"
+  },
+  "metadata": {
+    "description": "Marketplace for the ATDD plugin - acceptance-test-driven design/development tooling for Claude Code, covering BDD spec authoring, Gherkin scenario generation, and persona-based flow auditing.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "atdd",
+      "source": "./plugins/atdd",
+      "description": "ATDD toolkit for acceptance-test-driven design/development - Gherkin spec authoring, scenario generation, test implementation, bug documentation, spec auditing, persona operations mapping, and visual regression anchoring.",
+      "version": "0.1.0",
+      "category": "testing"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "atdd",
+  "description": "ATDD toolkit for acceptance-test-driven design/development - Gherkin spec authoring, scenario generation, test implementation, bug documentation, spec auditing, persona operations mapping, and visual regression anchoring.",
+  "version": "0.1.0"
+}

@@ -8,11 +8,22 @@ support are planned as later additions to the same toolkit.
 
 ## Install
 
+### Claude Code
+
 ```
 /plugin marketplace add liftingcortical/claude-atdd
 /plugin install atdd@claude-atdd
 /reload-plugins
 ```
+
+### Codex
+
+```
+codex plugin marketplace add liftingcortical/claude-atdd
+codex plugin add atdd@claude-atdd
+```
+
+Restart Codex after install so it loads the skills.
 
 ## What it does
 
@@ -53,3 +64,11 @@ order, and where the gaps are.
 Full BDD Manifesto: `skills/acceptance-spec-authoring/references/bdd-manifesto.md`
 Gherkin writing guide: `skills/acceptance-spec-authoring/references/gherkin-writing-guide.md`
 Output template: `skills/persona-flow-audit/references/output-template.md`
+
+## Project instructions template
+
+Copy one of these files to the root of your project. It tells the agent to
+always use the `acceptance-spec-authoring` skill:
+
+- Claude Code: `skills/acceptance-spec-authoring/references/CLAUDE.md`
+- Codex: `skills/acceptance-spec-authoring/references/AGENTS.md`

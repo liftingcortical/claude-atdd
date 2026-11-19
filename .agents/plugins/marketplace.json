@@ -1,0 +1,20 @@
+{
+  "name": "claude-atdd",
+  "interface": {
+    "displayName": "ATDD"
+  },
+  "plugins": [
+    {
+      "name": "atdd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/atdd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "testing"
+    }
+  ]
+}

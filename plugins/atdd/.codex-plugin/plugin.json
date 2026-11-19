@@ -1,0 +1,19 @@
+{
+  "name": "atdd",
+  "description": "ATDD toolkit for acceptance-test-driven design/development - Gherkin spec authoring, scenario generation, test implementation, bug documentation, spec auditing, persona operations mapping, and visual regression anchoring.",
+  "version": "0.2.0",
+  "keywords": ["atdd", "bdd", "gherkin", "acceptance-testing", "specs"],
+  "skills": "./skills",
+  "interface": {
+    "displayName": "ATDD",
+    "shortDescription": "Gherkin spec authoring and persona flow audits",
+    "developerName": "liftingcortical",
+    "category": "testing",
+    "websiteUrl": "https://github.com/liftingcortical/claude-atdd",
+    "defaultPrompt": [
+      "Write BDD specs for this feature",
+      "Document this bug as a Gherkin scenario",
+      "Build a persona operations map from my specs"
+    ]
+  }
+}
